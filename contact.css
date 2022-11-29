@@ -1,0 +1,99 @@
+/* Title */
+.title{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: default;
+    font-size: 1.4rem;
+    font-family: monospace;
+}
+
+
+
+/* Contact */
+
+.contact-container{
+    margin: 8rem 20rem;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 6rem;
+}
+
+
+/* Left Contact */
+.left-contact{
+    display: flex;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.twitter, .facebook, .instagram, .linkedin, .email{
+    height: 7.4rem;
+    cursor: pointer;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    column-gap: 2rem;
+    border-bottom: solid 0.1px rgb(138, 135, 135);
+    transition: opacity 0.15s;
+}
+
+.twitter{
+    border-top: solid 0.1px rgb(138, 135, 135);
+}
+
+.twitter:hover, .facebook:hover, .instagram:hover, .linkedin:hover, .email:hover{
+    opacity: 0.6;
+}
+
+.twitter:active, .facebook:active, .instagram:active, .linkedin:active, .email:active{
+    opacity: 0.4;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.user-name{
+    margin-bottom: .6rem;
+}
+
+/* Right Contact */
+.right-contact{
+    background-color: rgb(39, 90, 134);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: .2rem;
+}
+
+.header{
+    font-size: 1.8rem;
+    padding: .8rem 1rem;
+    background-color: rgb(21, 47, 71); 
+    border-radius: .4rem;
+    cursor: pointer;
+    font-family: monospace;
+}
+
+.header:hover{
+    opacity: 0.8;
+}
+
+.header:active{
+    opacity: 0.6;
+}

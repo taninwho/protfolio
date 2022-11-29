@@ -1,0 +1,47 @@
+.container{
+    margin: 10rem 20rem;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.info{
+    color: rgb(221, 220, 220);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: monospace;
+}
+
+.greet, .name, .bio{
+    cursor: default;
+}
+
+.greet{
+    font-size: 1.8rem;
+}
+
+.name{
+    margin: 3rem 0;
+    font-size: 6.4rem;
+}
+
+.bio{
+    font-size: 1.8rem;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.profile-img{
+    width: 10rem;
+}
+
+.profile img{
+    width: 100%;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: rgb(47, 223, 126);
+}
